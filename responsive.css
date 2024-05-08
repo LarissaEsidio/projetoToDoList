@@ -1,0 +1,26 @@
+@media(max-width: 450px){
+
+    h1{
+        font-size: 30px;
+    }
+    .menu{
+        width: 350px;
+
+    }
+
+    .caixinha{
+        width: 200px;
+        height: 30px;
+    }
+
+    .botao{
+        border: none;
+        height: 30px;
+        font-size: 14px;
+    }
+
+    .tarefas{
+        height: 40px;
+    }
+
+}

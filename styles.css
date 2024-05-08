@@ -1,0 +1,103 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+
+body {
+    background: url("./img/pexels-meruyert-gonullu-6151970.jpg");
+    background-size: cover;
+    
+}
+
+
+h1{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 40px;
+    color: white;
+
+}
+
+.menu {
+    background-color: #FFB22C;
+    width: 500px;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 50px auto 0;
+
+}
+
+.caixinha{
+
+    border: none;
+    border-radius: 5px;
+    width: 300px;
+    height: 40px;
+    padding-left: 10px;
+    
+
+}
+
+.botao{
+    border: none;
+    border-radius: 5px;
+    height: 40px;
+    background-color: rgb(0, 0, 0);
+    font-size: 17px;
+    color: white;
+    padding: 0 15px;
+    float: right;
+    cursor: pointer;
+
+}
+
+.botao:hover {
+    opacity: 0.8;
+}
+
+.botao:active{
+    opacity: 10;
+}
+
+.lista-tarefas {
+    width: 100%; 
+    list-style: none;
+    margin-top: 30px;
+}
+
+.tarefas {
+    background-color: #f2f2f2;
+    box-shadow: 1px 4px 10px rgb(0, 0, 0, 0.2);
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 15px;
+    border-radius: 5px;
+    margin-bottom: 20px; 
+    cursor: pointer;   
+    
+}
+
+img {
+    height: 25px;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.tarefas:hover img{
+    opacity: 0.5;
+}
+
+.tarefas:active img{
+    opacity: 10;
+    transition: none;
+}
+
+.done {
+    background-color: #8fac55;
+    text-decoration: line-through;
+}
