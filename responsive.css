@@ -1,26 +1,39 @@
 @media(max-width: 450px){
 
     h1{
-        font-size: 30px;
+        font-size: 40px;
     }
     .menu{
-        width: 350px;
+        width: 400px;
+        padding: 40px;
 
     }
 
     .caixinha{
-        width: 200px;
-        height: 30px;
+
+        width: 320px;
+        height: 40px;
+        align-items: center;
+        
+        
     }
 
     .botao{
         border: none;
-        height: 30px;
+        height: 40px;
         font-size: 14px;
+        margin: 7px 110px 15px;
+        align-items: center;
+
     }
 
     .tarefas{
         height: 40px;
+    }
+
+    img {
+        height: 20px;
+        opacity: 1;
     }
 
 }
