@@ -10,13 +10,14 @@ body {
     background: url("./img/pexels-meruyert-gonullu-6151970.jpg");
     background-size: cover;
     
+    
 }
 
 
 h1{
     text-align: center;
-    margin-top: 50px;
-    font-size: 40px;
+    margin: 10px auto 30px;
+    font-size: 30px;
     color: white;
 
 }

@@ -9,10 +9,16 @@
 
     }
 
+    h1{
+        font-size: 20px;
+        margin: 0 auto 15px;
+    }
+
     .caixinha{
 
-        width: 320px;
+        width: 300px;
         height: 40px;
+        margin: 5px 10px;
         align-items: center;
         
         
@@ -20,11 +26,9 @@
 
     .botao{
         border: none;
-        height: 40px;
+        height: 35px;
         font-size: 14px;
-        margin: 7px 110px 15px;
-        align-items: center;
-
+        margin: 5px 110px 20px ;
     }
 
     .tarefas{
